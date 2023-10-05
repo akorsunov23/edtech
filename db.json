@@ -416,7 +416,7 @@
     }
   },
   {
-    "model": "construction_est.section",
+    "model": "construction_obj.section",
     "pk": 1,
     "fields": {
       "name": "Фундамент",
@@ -425,7 +425,7 @@
     }
   },
   {
-    "model": "construction_est.section",
+    "model": "construction_obj.section",
     "pk": 2,
     "fields": {
       "name": "Основание",
@@ -434,7 +434,7 @@
     }
   },
   {
-    "model": "construction_est.section",
+    "model": "construction_obj.section",
     "pk": 3,
     "fields": {
       "name": "Фасад",
@@ -443,7 +443,7 @@
     }
   },
   {
-    "model": "construction_est.section",
+    "model": "construction_obj.section",
     "pk": 4,
     "fields": {
       "name": "Крыша",
@@ -452,7 +452,7 @@
     }
   },
   {
-    "model": "construction_est.section",
+    "model": "construction_obj.section",
     "pk": 5,
     "fields": {
       "name": "Фундамент",
@@ -461,7 +461,7 @@
     }
   },
   {
-    "model": "construction_est.section",
+    "model": "construction_obj.section",
     "pk": 6,
     "fields": {
       "name": "Основание",
@@ -470,7 +470,7 @@
     }
   },
   {
-    "model": "construction_est.section",
+    "model": "construction_obj.section",
     "pk": 7,
     "fields": {
       "name": "Фасад",
@@ -479,7 +479,7 @@
     }
   },
   {
-    "model": "construction_est.section",
+    "model": "construction_obj.section",
     "pk": 8,
     "fields": {
       "name": "Крыша",
@@ -488,7 +488,7 @@
     }
   },
   {
-    "model": "construction_est.section",
+    "model": "construction_obj.section",
     "pk": 9,
     "fields": {
       "name": "Цемент",
@@ -497,7 +497,7 @@
     }
   },
   {
-    "model": "construction_est.section",
+    "model": "construction_obj.section",
     "pk": 10,
     "fields": {
       "name": "Щебень",
@@ -506,7 +506,7 @@
     }
   },
   {
-    "model": "construction_est.section",
+    "model": "construction_obj.section",
     "pk": 11,
     "fields": {
       "name": "Арматура",
@@ -515,7 +515,7 @@
     }
   },
   {
-    "model": "construction_est.section",
+    "model": "construction_obj.section",
     "pk": 12,
     "fields": {
       "name": "Песок",
@@ -524,7 +524,7 @@
     }
   },
   {
-    "model": "construction_est.section",
+    "model": "construction_obj.section",
     "pk": 13,
     "fields": {
       "name": "Кирпич",
@@ -533,7 +533,7 @@
     }
   },
   {
-    "model": "construction_est.section",
+    "model": "construction_obj.section",
     "pk": 14,
     "fields": {
       "name": "Цемент",
@@ -542,7 +542,7 @@
     }
   },
   {
-    "model": "construction_est.section",
+    "model": "construction_obj.section",
     "pk": 15,
     "fields": {
       "name": "Плитка",
@@ -551,7 +551,7 @@
     }
   },
   {
-    "model": "construction_est.section",
+    "model": "construction_obj.section",
     "pk": 16,
     "fields": {
       "name": "Клей",
@@ -560,7 +560,7 @@
     }
   },
   {
-    "model": "construction_est.section",
+    "model": "construction_obj.section",
     "pk": 17,
     "fields": {
       "name": "Лес",
@@ -569,7 +569,7 @@
     }
   },
   {
-    "model": "construction_est.section",
+    "model": "construction_obj.section",
     "pk": 18,
     "fields": {
       "name": "Гвозди",
@@ -578,7 +578,7 @@
     }
   },
   {
-    "model": "construction_est.section",
+    "model": "construction_obj.section",
     "pk": 19,
     "fields": {
       "name": "Цемент",
@@ -587,7 +587,7 @@
     }
   },
   {
-    "model": "construction_est.section",
+    "model": "construction_obj.section",
     "pk": 20,
     "fields": {
       "name": "Щебень",
@@ -596,7 +596,7 @@
     }
   },
   {
-    "model": "construction_est.section",
+    "model": "construction_obj.section",
     "pk": 21,
     "fields": {
       "name": "Арматура",
@@ -605,7 +605,7 @@
     }
   },
   {
-    "model": "construction_est.section",
+    "model": "construction_obj.section",
     "pk": 22,
     "fields": {
       "name": "Песок",
@@ -614,7 +614,7 @@
     }
   },
   {
-    "model": "construction_est.section",
+    "model": "construction_obj.section",
     "pk": 23,
     "fields": {
       "name": "Кирпич",
@@ -623,7 +623,7 @@
     }
   },
   {
-    "model": "construction_est.section",
+    "model": "construction_obj.section",
     "pk": 24,
     "fields": {
       "name": "Цемент",
@@ -632,7 +632,7 @@
     }
   },
   {
-    "model": "construction_est.section",
+    "model": "construction_obj.section",
     "pk": 25,
     "fields": {
       "name": "Плитка",
@@ -641,7 +641,7 @@
     }
   },
   {
-    "model": "construction_est.section",
+    "model": "construction_obj.section",
     "pk": 26,
     "fields": {
       "name": "Клей",
@@ -650,7 +650,7 @@
     }
   },
   {
-    "model": "construction_est.section",
+    "model": "construction_obj.section",
     "pk": 27,
     "fields": {
       "name": "Лес",
@@ -659,7 +659,7 @@
     }
   },
   {
-    "model": "construction_est.section",
+    "model": "construction_obj.section",
     "pk": 28,
     "fields": {
       "name": "Гвозди",
@@ -668,7 +668,7 @@
     }
   },
   {
-    "model": "construction_est.expenditure",
+    "model": "construction_obj.expenditure",
     "pk": 1,
     "fields": {
       "section": 9,
@@ -679,7 +679,7 @@
     }
   },
   {
-    "model": "construction_est.expenditure",
+    "model": "construction_obj.expenditure",
     "pk": 2,
     "fields": {
       "section": 9,
@@ -690,7 +690,7 @@
     }
   },
   {
-    "model": "construction_est.expenditure",
+    "model": "construction_obj.expenditure",
     "pk": 3,
     "fields": {
       "section": 9,
@@ -701,7 +701,7 @@
     }
   },
   {
-    "model": "construction_est.expenditure",
+    "model": "construction_obj.expenditure",
     "pk": 4,
     "fields": {
       "section": 9,
@@ -712,7 +712,7 @@
     }
   },
   {
-    "model": "construction_est.expenditure",
+    "model": "construction_obj.expenditure",
     "pk": 5,
     "fields": {
       "section": 10,
@@ -723,7 +723,7 @@
     }
   },
   {
-    "model": "construction_est.expenditure",
+    "model": "construction_obj.expenditure",
     "pk": 6,
     "fields": {
       "section": 11,
@@ -734,7 +734,7 @@
     }
   },
   {
-    "model": "construction_est.expenditure",
+    "model": "construction_obj.expenditure",
     "pk": 7,
     "fields": {
       "section": 12,
@@ -745,7 +745,7 @@
     }
   },
   {
-    "model": "construction_est.expenditure",
+    "model": "construction_obj.expenditure",
     "pk": 8,
     "fields": {
       "section": 15,
@@ -756,7 +756,7 @@
     }
   },
   {
-    "model": "construction_est.expenditure",
+    "model": "construction_obj.expenditure",
     "pk": 9,
     "fields": {
       "section": 15,
@@ -767,7 +767,7 @@
     }
   },
   {
-    "model": "construction_est.expenditure",
+    "model": "construction_obj.expenditure",
     "pk": 10,
     "fields": {
       "section": 15,
@@ -778,7 +778,7 @@
     }
   },
   {
-    "model": "construction_est.expenditure",
+    "model": "construction_obj.expenditure",
     "pk": 11,
     "fields": {
       "section": 13,
@@ -789,7 +789,7 @@
     }
   },
   {
-    "model": "construction_est.expenditure",
+    "model": "construction_obj.expenditure",
     "pk": 12,
     "fields": {
       "section": 14,
@@ -800,7 +800,7 @@
     }
   },
   {
-    "model": "construction_est.expenditure",
+    "model": "construction_obj.expenditure",
     "pk": 13,
     "fields": {
       "section": 13,
@@ -811,7 +811,7 @@
     }
   },
   {
-    "model": "construction_est.expenditure",
+    "model": "construction_obj.expenditure",
     "pk": 14,
     "fields": {
       "section": 17,
@@ -822,7 +822,7 @@
     }
   },
   {
-    "model": "construction_est.expenditure",
+    "model": "construction_obj.expenditure",
     "pk": 15,
     "fields": {
       "section": 18,
@@ -833,7 +833,7 @@
     }
   },
   {
-    "model": "construction_est.expenditure",
+    "model": "construction_obj.expenditure",
     "pk": 16,
     "fields": {
       "section": 17,
@@ -844,7 +844,7 @@
     }
   },
   {
-    "model": "construction_est.expenditure",
+    "model": "construction_obj.expenditure",
     "pk": 17,
     "fields": {
       "section": 19,
@@ -855,7 +855,7 @@
     }
   },
   {
-    "model": "construction_est.expenditure",
+    "model": "construction_obj.expenditure",
     "pk": 18,
     "fields": {
       "section": 19,
@@ -866,7 +866,7 @@
     }
   },
   {
-    "model": "construction_est.expenditure",
+    "model": "construction_obj.expenditure",
     "pk": 19,
     "fields": {
       "section": 19,
@@ -877,7 +877,7 @@
     }
   },
   {
-    "model": "construction_est.expenditure",
+    "model": "construction_obj.expenditure",
     "pk": 20,
     "fields": {
       "section": 19,
@@ -888,7 +888,7 @@
     }
   },
   {
-    "model": "construction_est.expenditure",
+    "model": "construction_obj.expenditure",
     "pk": 21,
     "fields": {
       "section": 20,
@@ -899,7 +899,7 @@
     }
   },
   {
-    "model": "construction_est.expenditure",
+    "model": "construction_obj.expenditure",
     "pk": 22,
     "fields": {
       "section": 21,
@@ -910,7 +910,7 @@
     }
   },
   {
-    "model": "construction_est.expenditure",
+    "model": "construction_obj.expenditure",
     "pk": 23,
     "fields": {
       "section": 22,
@@ -921,7 +921,7 @@
     }
   },
   {
-    "model": "construction_est.expenditure",
+    "model": "construction_obj.expenditure",
     "pk": 24,
     "fields": {
       "section": 25,
@@ -932,7 +932,7 @@
     }
   },
   {
-    "model": "construction_est.expenditure",
+    "model": "construction_obj.expenditure",
     "pk": 25,
     "fields": {
       "section": 25,
@@ -943,7 +943,7 @@
     }
   },
   {
-    "model": "construction_est.expenditure",
+    "model": "construction_obj.expenditure",
     "pk": 26,
     "fields": {
       "section": 25,
@@ -954,7 +954,7 @@
     }
   },
   {
-    "model": "construction_est.expenditure",
+    "model": "construction_obj.expenditure",
     "pk": 27,
     "fields": {
       "section": 23,
@@ -965,7 +965,7 @@
     }
   },
   {
-    "model": "construction_est.expenditure",
+    "model": "construction_obj.expenditure",
     "pk": 28,
     "fields": {
       "section": 24,
@@ -976,7 +976,7 @@
     }
   },
   {
-    "model": "construction_est.expenditure",
+    "model": "construction_obj.expenditure",
     "pk": 29,
     "fields": {
       "section": 23,
@@ -987,7 +987,7 @@
     }
   },
   {
-    "model": "construction_est.expenditure",
+    "model": "construction_obj.expenditure",
     "pk": 30,
     "fields": {
       "section": 27,
@@ -998,7 +998,7 @@
     }
   },
   {
-    "model": "construction_est.expenditure",
+    "model": "construction_obj.expenditure",
     "pk": 31,
     "fields": {
       "section": 28,
@@ -1009,7 +1009,7 @@
     }
   },
   {
-    "model": "construction_est.expenditure",
+    "model": "construction_obj.expenditure",
     "pk": 32,
     "fields": {
       "section": 27,

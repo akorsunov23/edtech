@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Задача 1 - Информация о главных секциях сметы</title>
+</head>
+<body>
+{% if sections|length > 0 %}
+    {% for section in sections %}
+        <p>ID - {{ section.parent_id }}</p>
+        <p>Название - {{ section.parent__name }}</p>
+        <p>Стоимость - {{ section.total_price }}</p>
+        <hr>
+    {% endfor %}
+{% else %}
+    <h3>Данные о смете не добавлены.</h3>
+{% endif %}
+</body>
+</html>

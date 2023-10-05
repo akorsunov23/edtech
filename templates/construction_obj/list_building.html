@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Задача 2</title>
+</head>
+<body>
+{% for obj in buildings %}
+    <ul>
+        <li><a href="{% url "construction_obj:detail_building" pk=obj.pk %}">ID{{ obj.pk }} - {{ obj.name }}</a></li>
+    </ul>
+{% endfor %}
+</body>
+</html>

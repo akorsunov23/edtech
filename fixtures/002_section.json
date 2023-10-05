@@ -1,0 +1,254 @@
+[
+  {
+    "model": "construction_est.section",
+    "pk": 1,
+    "fields": {
+      "name": "Фундамент",
+      "building": 1,
+      "parent": null
+    }
+  },
+    {
+    "model": "construction_est.section",
+    "pk": 2,
+    "fields": {
+      "name": "Основание",
+      "building": 1,
+      "parent": null
+    }
+  },
+    {
+    "model": "construction_est.section",
+    "pk": 3,
+    "fields": {
+      "name": "Фасад",
+      "building": 1,
+      "parent": null
+    }
+  },
+    {
+    "model": "construction_est.section",
+    "pk": 4,
+    "fields": {
+      "name": "Крыша",
+      "building": 1,
+      "parent": null
+    }
+  },
+    {
+    "model": "construction_est.section",
+    "pk": 5,
+    "fields": {
+      "name": "Фундамент",
+      "building": 2,
+      "parent": null
+    }
+  },
+    {
+    "model": "construction_est.section",
+    "pk": 6,
+    "fields": {
+      "name": "Основание",
+      "building": 2,
+      "parent": null
+    }
+  },
+    {
+    "model": "construction_est.section",
+    "pk": 7,
+    "fields": {
+      "name": "Фасад",
+      "building": 2,
+      "parent": null
+    }
+  },
+    {
+    "model": "construction_est.section",
+    "pk": 8,
+    "fields": {
+      "name": "Крыша",
+      "building": 2,
+      "parent": null
+    }
+  },
+  {
+    "model": "construction_est.section",
+    "pk": 9,
+    "fields": {
+      "name": "Цемент",
+      "building": 1,
+      "parent": 1
+    }
+  },
+  {
+    "model": "construction_est.section",
+    "pk": 10,
+    "fields": {
+      "name": "Щебень",
+      "building": 1,
+      "parent": 1
+    }
+  },
+  {
+    "model": "construction_est.section",
+    "pk": 11,
+    "fields": {
+      "name": "Арматура",
+      "building": 1,
+      "parent": 1
+    }
+  },
+  {
+    "model": "construction_est.section",
+    "pk": 12,
+    "fields": {
+      "name": "Песок",
+      "building": 1,
+      "parent": 1
+    }
+  },
+    {
+    "model": "construction_est.section",
+    "pk": 13,
+    "fields": {
+      "name": "Кирпич",
+      "building": 1,
+      "parent": 2
+    }
+  },
+  {
+    "model": "construction_est.section",
+    "pk": 14,
+    "fields": {
+      "name": "Цемент",
+      "building": 1,
+      "parent": 2
+    }
+  },
+    {
+    "model": "construction_est.section",
+    "pk": 15,
+    "fields": {
+      "name": "Плитка",
+      "building": 1,
+      "parent": 3
+    }
+  },
+  {
+    "model": "construction_est.section",
+    "pk": 16,
+    "fields": {
+      "name": "Клей",
+      "building": 1,
+      "parent": 3
+    }
+  },
+    {
+    "model": "construction_est.section",
+    "pk": 17,
+    "fields": {
+      "name": "Лес",
+      "building": 1,
+      "parent": 4
+    }
+  },
+  {
+    "model": "construction_est.section",
+    "pk": 18,
+    "fields": {
+      "name": "Гвозди",
+      "building": 1,
+      "parent": 4
+    }
+  },
+    {
+    "model": "construction_est.section",
+    "pk": 19,
+    "fields": {
+      "name": "Цемент",
+      "building": 2,
+      "parent": 5
+    }
+  },
+  {
+    "model": "construction_est.section",
+    "pk": 20,
+    "fields": {
+      "name": "Щебень",
+      "building": 2,
+      "parent": 5
+    }
+  },
+  {
+    "model": "construction_est.section",
+    "pk": 21,
+    "fields": {
+      "name": "Арматура",
+      "building": 2,
+      "parent": 5
+    }
+  },
+  {
+    "model": "construction_est.section",
+    "pk": 22,
+    "fields": {
+      "name": "Песок",
+      "building": 2,
+      "parent": 5
+    }
+  },
+      {
+    "model": "construction_est.section",
+    "pk": 23,
+    "fields": {
+      "name": "Кирпич",
+      "building": 2,
+      "parent": 6
+    }
+  },
+  {
+    "model": "construction_est.section",
+    "pk": 24,
+    "fields": {
+      "name": "Цемент",
+      "building": 2,
+      "parent": 6
+    }
+  },
+    {
+    "model": "construction_est.section",
+    "pk": 25,
+    "fields": {
+      "name": "Плитка",
+      "building": 2,
+      "parent": 7
+    }
+  },
+  {
+    "model": "construction_est.section",
+    "pk": 26,
+    "fields": {
+      "name": "Клей",
+      "building": 2,
+      "parent": 7
+    }
+  },
+    {
+    "model": "construction_est.section",
+    "pk": 27,
+    "fields": {
+      "name": "Лес",
+      "building": 2,
+      "parent": 8
+    }
+  },
+  {
+    "model": "construction_est.section",
+    "pk": 28,
+    "fields": {
+      "name": "Гвозди",
+      "building": 2,
+      "parent": 8
+    }
+  }
+]

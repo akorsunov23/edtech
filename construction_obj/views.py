@@ -8,7 +8,7 @@ from construction_obj.forms import DiscountForms
 from construction_obj.services import (
     get_parent_sections,
     get_buildings,
-    update_with_discount
+    update_with_discount,
 )
 
 
@@ -44,16 +44,14 @@ class UpdateSectionView(FormView):
     """
     Применение скидки к стоимости секции.
     """
+
     template_name = "construction_obj/update_section.html"
     success_url = reverse_lazy("construction_obj:list_buildings")
     form_class = DiscountForms
 
     def form_valid(self, form):
-        """
-        Применяем скидку ко вложенным секциям.
-        """
-        section_id = self.kwargs['pk']
-        discount = Decimal(self.request.POST.get('discount'))
+        section_id = self.kwargs["pk"]
+        discount = Decimal(self.request.POST.get("discount"))
         update_with_discount(
             section_id=section_id,
             discount=discount

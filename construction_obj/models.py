@@ -39,11 +39,7 @@ class Section(models.Model):
         verbose_name_plural = "секции смет"
 
     def save(
-            self,
-            force_insert=False,
-            force_update=False,
-            using=None,
-            update_fields=None
+        self, force_insert=False, force_update=False, using=None, update_fields=None
     ):
         """Перед сохранением проверяем на уровень вложенности."""
         if not self.id and self.parent and getattr(self.parent, "parent", None):
@@ -52,13 +48,9 @@ class Section(models.Model):
 
     def __str__(self):
         if self.parent:
-            return "{parent} - {name}".format(
-                parent=self.parent,
-                name=self.name
-            )
+            return "{parent} - {name}".format(parent=self.parent, name=self.name)
         return "{name}: {object_name}".format(
-            name=self.name,
-            object_name=self.building.name
+            name=self.name, object_name=self.building.name
         )
 
 
@@ -79,15 +71,13 @@ class Expenditure(models.Model):
         Section,
         on_delete=models.PROTECT,
         help_text="Расценка может принадлежать "
-                  "только той секции, у которой указан parent",
+        "только той секции, у которой указан parent",
     )
     name = models.CharField(max_length=50, verbose_name="название расценки")
     type = models.CharField(
         verbose_name="тип расценки", choices=Types.choices, max_length=8
     )
-    count = models.DecimalField(
-        verbose_name="кол-во", max_digits=20, decimal_places=8
-    )
+    count = models.DecimalField(verbose_name="кол-во", max_digits=20, decimal_places=8)
     price = models.DecimalField(
         verbose_name="цена за единицу", max_digits=20, decimal_places=2
     )

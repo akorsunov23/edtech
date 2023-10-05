@@ -12,17 +12,20 @@ def get_parent_sections(building_id: int) -> list[Section]:
     :return Полученные данные из БД, с суммарной стоимостью по родительским секциям.
     """
     query = (
-        Section.objects.filter(parent__building_id=building_id)
+        Section.objects
+        .filter(parent__building_id=building_id)
         .values(
             "parent_id",
             "parent__name"
         )
         .annotate(
-            total_price=Sum("expenditure__price")
-            * Sum("expenditure__count")
+            total_price=Sum(
+                F("expenditure__price")
+                * F("expenditure__count")
+                )
         )
-
     )
+
     return query
 
 
@@ -35,25 +38,15 @@ def get_buildings() -> list[dict]:
         Building.objects.all()
         .annotate(
             works_amount=Sum(
-                "section__expenditure__price",
-                filter=models.Q(
-                    section__expenditure__type=Expenditure.Types.WORK
-                ),
-            )
-            * Sum(
-                "section__expenditure__count",
+                F("section__expenditure__price")
+                * F("section__expenditure__count"),
                 filter=models.Q(
                     section__expenditure__type=Expenditure.Types.WORK
                 ),
             ),
             materials_amount=Sum(
-                "section__expenditure__price",
-                filter=models.Q(
-                    section__expenditure__type=Expenditure.Types.MATERIAL
-                ),
-            )
-            * Sum(
-                "section__expenditure__count",
+                F("section__expenditure__price")
+                * F("section__expenditure__count"),
                 filter=models.Q(
                     section__expenditure__type=Expenditure.Types.MATERIAL
                 ),
@@ -75,9 +68,12 @@ def update_with_discount(section_id: int, discount: Decimal):
     Применение скидки к вложенным секциям.
     :param section_id: ID родительской секции.
     :param discount: Размер скидки.
+    :return None.
     """
     (
         Expenditure.objects
         .filter(section__parent_id=section_id)
-        .update(price=F('price') * (1 - discount / 100))
+        .update(
+            price=F("price") * (1 - discount / 100)
+        )
     )

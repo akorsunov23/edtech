@@ -24,9 +24,14 @@ class Section(models.Model):
         super().save(force_insert, force_update, using, update_fields)
 
     def __str__(self):
-        return '{name} - ({object_name}).'.format(
+        if self.parent:
+            return '{parent} - {name}'.format(
+                parent=self.parent,
+                name=self.name
+            )
+        return '{name}: {object_name}'.format(
             name=self.name,
-            object_name=self.parent if self.parent else self.building.name
+            object_name=self.building.name
         )
 
 

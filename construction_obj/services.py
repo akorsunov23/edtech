@@ -1,5 +1,5 @@
 from django.db import models
-from django.db.models import Sum
+from django.db.models import Sum, F
 
 from construction_obj.models import Section, Building, Expenditure
 from decimal import Decimal
@@ -8,6 +8,8 @@ from decimal import Decimal
 def get_parent_sections(building_id: int) -> list[Section]:
     """
     Получение данных о родительских секциях объекта.
+    :param building_id: ID объекта.
+    :return Полученные данные из БД, с суммарной стоимостью по родительским секциям.
     """
     query = (
         Section.objects.filter(parent__building_id=building_id)
@@ -27,6 +29,7 @@ def get_parent_sections(building_id: int) -> list[Section]:
 def get_buildings() -> list[dict]:
     """
     Получение списка объектов со стоимостью по типу.
+    :return Полученные данные из БД, с суммарной стоимостью по типам.
     """
     query = (
         Building.objects.all()
@@ -65,3 +68,16 @@ def get_buildings() -> list[dict]:
     )
 
     return query
+
+
+def update_with_discount(section_id: int, discount: Decimal):
+    """
+    Применение скидки к вложенным секциям.
+    :param section_id: ID родительской секции.
+    :param discount: Размер скидки.
+    """
+    (
+        Expenditure.objects
+        .filter(section__parent_id=section_id)
+        .update(price=F('price') * (1 - discount / 100))
+    )

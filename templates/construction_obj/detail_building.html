@@ -10,6 +10,11 @@
         <p>ID - {{ section.parent_id }}</p>
         <p>Название - {{ section.parent__name }}</p>
         <p>Стоимость - {{ section.total_price }}</p>
+        {% if section.total_price > 0 %}
+            <button type="submit">
+                <a href="{% url 'construction_obj:update_section' pk=section.parent_id %}">Добавить скидку</a>
+            </button>
+        {% endif %}
         <hr>
     {% endfor %}
 {% else %}

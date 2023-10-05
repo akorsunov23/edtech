@@ -1,0 +1,1092 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2023-10-05T12:16:27.682Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "Building object (1)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2023-10-05T12:17:42.483Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "Торговый центр",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2023-10-05T12:18:10.677Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "Коттеджный посёлок",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2023-10-05T12:19:17.038Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Section object (1)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2023-10-05T12:23:39.850Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Фундамент для Многоквартирный дом.",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2023-10-05T12:24:00.658Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Цемент для Многоквартирный дом.",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2023-10-05T12:24:53.211Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "Щебень для Многоквартирный дом.",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2023-10-05T12:29:10.962Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "Арматура - (Фундамент - (Многоквартирный дом).).",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2023-10-05T12:29:31.061Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "5",
+      "object_repr": "Песок - (Фундамент - (Многоквартирный дом).).",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2023-10-05T15:01:31.630Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Expenditure object (1)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2023-10-05T15:01:55.697Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Expenditure object (2)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2023-10-05T15:02:18.417Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Expenditure object (3)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2023-10-05T16:05:48.163Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "Expenditure object (5)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435 \\u0440\\u0430\\u0441\\u0446\\u0435\\u043d\\u043a\\u0438\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2023-10-05T16:05:59.811Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "7",
+      "object_repr": "Expenditure object (7)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2023-10-05T16:06:09.978Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "8",
+      "object_repr": "Expenditure object (8)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2023-10-05T16:06:09.988Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "6",
+      "object_repr": "Expenditure object (6)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2023-10-05T16:06:26.600Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "11",
+      "object_repr": "Expenditure object (11)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2023-10-05T16:06:26.610Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "10",
+      "object_repr": "Expenditure object (10)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2023-10-05T16:06:26.617Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "9",
+      "object_repr": "Expenditure object (9)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2023-10-05T16:07:14.119Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "12",
+      "object_repr": "Expenditure object (12)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+      "action_time": "2023-10-05T16:07:35.114Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "13",
+      "object_repr": "Expenditure object (13)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+      "action_time": "2023-10-05T16:08:16.036Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "14",
+      "object_repr": "Expenditure object (14)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+      "action_time": "2023-10-05T16:08:42.290Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "15",
+      "object_repr": "Expenditure object (15)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+      "action_time": "2023-10-05T16:09:04.999Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "16",
+      "object_repr": "Expenditure object (16)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+      "action_time": "2023-10-05T16:09:41.023Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "17",
+      "object_repr": "Expenditure object (17)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+      "action_time": "2023-10-05T16:10:15.796Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "18",
+      "object_repr": "Expenditure object (18)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+      "action_time": "2023-10-05T16:10:30.698Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "19",
+      "object_repr": "Expenditure object (19)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+      "action_time": "2023-10-05T16:11:13.884Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "20",
+      "object_repr": "Expenditure object (20)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+      "action_time": "2023-10-05T16:11:41.789Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "21",
+      "object_repr": "Expenditure object (21)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+      "action_time": "2023-10-05T16:11:56.255Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "22",
+      "object_repr": "Expenditure object (22)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$753xnpWuxIgGeYuDSqRdXG$1vd2NAkJbzmPbCxFJXMpgqwGmKlelTgQZ/wwZh4loGU=",
+      "last_login": "2023-10-05T12:09:39.034Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2023-10-05T12:08:59.863Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "t268bmnlrf30mae8qxhrzu5mkgp5z6vu",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQBe_iGlneJP5R0ucM0a53jQPIlvKpEHdHkVJA-2bmvdWE-1amfZVlmlldFajL70aYnlIPwA-s96ZTq9sykz4UfdJVj43ldTvdv4OCazlqH9BZsbFzzoBBOwBHl0NnsmSTezacJURCSs4CDYaSZ6I-ox8ABNTnC-IkOFU:1qoNAh:9a_9y3CW0ohwES6taAa7Ez7FRHfYjkD1RZ8m0rCPNKs",
+      "expire_date": "2023-10-19T12:09:39.040Z"
+    }
+  },
+  {
+    "model": "construction_est.section",
+    "pk": 1,
+    "fields": {
+      "name": "Фундамент",
+      "building": 1,
+      "parent": null
+    }
+  },
+  {
+    "model": "construction_est.section",
+    "pk": 2,
+    "fields": {
+      "name": "Основание",
+      "building": 1,
+      "parent": null
+    }
+  },
+  {
+    "model": "construction_est.section",
+    "pk": 3,
+    "fields": {
+      "name": "Фасад",
+      "building": 1,
+      "parent": null
+    }
+  },
+  {
+    "model": "construction_est.section",
+    "pk": 4,
+    "fields": {
+      "name": "Крыша",
+      "building": 1,
+      "parent": null
+    }
+  },
+  {
+    "model": "construction_est.section",
+    "pk": 5,
+    "fields": {
+      "name": "Фундамент",
+      "building": 2,
+      "parent": null
+    }
+  },
+  {
+    "model": "construction_est.section",
+    "pk": 6,
+    "fields": {
+      "name": "Основание",
+      "building": 2,
+      "parent": null
+    }
+  },
+  {
+    "model": "construction_est.section",
+    "pk": 7,
+    "fields": {
+      "name": "Фасад",
+      "building": 2,
+      "parent": null
+    }
+  },
+  {
+    "model": "construction_est.section",
+    "pk": 8,
+    "fields": {
+      "name": "Крыша",
+      "building": 2,
+      "parent": null
+    }
+  },
+  {
+    "model": "construction_est.section",
+    "pk": 9,
+    "fields": {
+      "name": "Цемент",
+      "building": 1,
+      "parent": 1
+    }
+  },
+  {
+    "model": "construction_est.section",
+    "pk": 10,
+    "fields": {
+      "name": "Щебень",
+      "building": 1,
+      "parent": 1
+    }
+  },
+  {
+    "model": "construction_est.section",
+    "pk": 11,
+    "fields": {
+      "name": "Арматура",
+      "building": 1,
+      "parent": 1
+    }
+  },
+  {
+    "model": "construction_est.section",
+    "pk": 12,
+    "fields": {
+      "name": "Песок",
+      "building": 1,
+      "parent": 1
+    }
+  },
+  {
+    "model": "construction_est.section",
+    "pk": 13,
+    "fields": {
+      "name": "Кирпич",
+      "building": 1,
+      "parent": 2
+    }
+  },
+  {
+    "model": "construction_est.section",
+    "pk": 14,
+    "fields": {
+      "name": "Цемент",
+      "building": 1,
+      "parent": 2
+    }
+  },
+  {
+    "model": "construction_est.section",
+    "pk": 15,
+    "fields": {
+      "name": "Плитка",
+      "building": 1,
+      "parent": 3
+    }
+  },
+  {
+    "model": "construction_est.section",
+    "pk": 16,
+    "fields": {
+      "name": "Клей",
+      "building": 1,
+      "parent": 3
+    }
+  },
+  {
+    "model": "construction_est.section",
+    "pk": 17,
+    "fields": {
+      "name": "Лес",
+      "building": 1,
+      "parent": 4
+    }
+  },
+  {
+    "model": "construction_est.section",
+    "pk": 18,
+    "fields": {
+      "name": "Гвозди",
+      "building": 1,
+      "parent": 4
+    }
+  },
+  {
+    "model": "construction_est.section",
+    "pk": 19,
+    "fields": {
+      "name": "Цемент",
+      "building": 2,
+      "parent": 5
+    }
+  },
+  {
+    "model": "construction_est.section",
+    "pk": 20,
+    "fields": {
+      "name": "Щебень",
+      "building": 2,
+      "parent": 5
+    }
+  },
+  {
+    "model": "construction_est.section",
+    "pk": 21,
+    "fields": {
+      "name": "Арматура",
+      "building": 2,
+      "parent": 5
+    }
+  },
+  {
+    "model": "construction_est.section",
+    "pk": 22,
+    "fields": {
+      "name": "Песок",
+      "building": 2,
+      "parent": 5
+    }
+  },
+  {
+    "model": "construction_est.section",
+    "pk": 23,
+    "fields": {
+      "name": "Кирпич",
+      "building": 2,
+      "parent": 6
+    }
+  },
+  {
+    "model": "construction_est.section",
+    "pk": 24,
+    "fields": {
+      "name": "Цемент",
+      "building": 2,
+      "parent": 6
+    }
+  },
+  {
+    "model": "construction_est.section",
+    "pk": 25,
+    "fields": {
+      "name": "Плитка",
+      "building": 2,
+      "parent": 7
+    }
+  },
+  {
+    "model": "construction_est.section",
+    "pk": 26,
+    "fields": {
+      "name": "Клей",
+      "building": 2,
+      "parent": 7
+    }
+  },
+  {
+    "model": "construction_est.section",
+    "pk": 27,
+    "fields": {
+      "name": "Лес",
+      "building": 2,
+      "parent": 8
+    }
+  },
+  {
+    "model": "construction_est.section",
+    "pk": 28,
+    "fields": {
+      "name": "Гвозди",
+      "building": 2,
+      "parent": 8
+    }
+  },
+  {
+    "model": "construction_est.expenditure",
+    "pk": 1,
+    "fields": {
+      "section": 9,
+      "name": "p100",
+      "type": "material",
+      "count": "50.00000000",
+      "price": "100.00"
+    }
+  },
+  {
+    "model": "construction_est.expenditure",
+    "pk": 2,
+    "fields": {
+      "section": 9,
+      "name": "бригадир",
+      "type": "work",
+      "count": "1.00000000",
+      "price": "1000.00"
+    }
+  },
+  {
+    "model": "construction_est.expenditure",
+    "pk": 3,
+    "fields": {
+      "section": 9,
+      "name": "Подсобники",
+      "type": "work",
+      "count": "5.00000000",
+      "price": "800.00"
+    }
+  },
+  {
+    "model": "construction_est.expenditure",
+    "pk": 4,
+    "fields": {
+      "section": 9,
+      "name": "Трактор",
+      "type": "work",
+      "count": "2.00000000",
+      "price": "2500.00"
+    }
+  },
+  {
+    "model": "construction_est.expenditure",
+    "pk": 5,
+    "fields": {
+      "section": 10,
+      "name": "Стоимость щебня",
+      "type": "material",
+      "count": "50.00000000",
+      "price": "100.00"
+    }
+  },
+  {
+    "model": "construction_est.expenditure",
+    "pk": 6,
+    "fields": {
+      "section": 11,
+      "name": "Закупка",
+      "type": "material",
+      "count": "2020.00000000",
+      "price": "1513.00"
+    }
+  },
+  {
+    "model": "construction_est.expenditure",
+    "pk": 7,
+    "fields": {
+      "section": 12,
+      "name": "Закупка",
+      "type": "material",
+      "count": "15131.00000000",
+      "price": "15513.00"
+    }
+  },
+  {
+    "model": "construction_est.expenditure",
+    "pk": 8,
+    "fields": {
+      "section": 15,
+      "name": "Закупка плитки",
+      "type": "material",
+      "count": "313.00000000",
+      "price": "42141.00"
+    }
+  },
+  {
+    "model": "construction_est.expenditure",
+    "pk": 9,
+    "fields": {
+      "section": 15,
+      "name": "Работа - Бригадир",
+      "type": "work",
+      "count": "1.00000000",
+      "price": "850.00"
+    }
+  },
+  {
+    "model": "construction_est.expenditure",
+    "pk": 10,
+    "fields": {
+      "section": 15,
+      "name": "Работа - Плиточники",
+      "type": "work",
+      "count": "14.00000000",
+      "price": "214.00"
+    }
+  },
+  {
+    "model": "construction_est.expenditure",
+    "pk": 11,
+    "fields": {
+      "section": 13,
+      "name": "Закупка материала",
+      "type": "material",
+      "count": "11111.00000000",
+      "price": "1500.00"
+    }
+  },
+  {
+    "model": "construction_est.expenditure",
+    "pk": 12,
+    "fields": {
+      "section": 14,
+      "name": "Закупка материала",
+      "type": "material",
+      "count": "1513.00000000",
+      "price": "55548.00"
+    }
+  },
+  {
+    "model": "construction_est.expenditure",
+    "pk": 13,
+    "fields": {
+      "section": 13,
+      "name": "Каменщики",
+      "type": "work",
+      "count": "20.00000000",
+      "price": "1545.00"
+    }
+  },
+  {
+    "model": "construction_est.expenditure",
+    "pk": 14,
+    "fields": {
+      "section": 17,
+      "name": "Закупка леса",
+      "type": "material",
+      "count": "5154.00000000",
+      "price": "1000.00"
+    }
+  },
+  {
+    "model": "construction_est.expenditure",
+    "pk": 15,
+    "fields": {
+      "section": 18,
+      "name": "Закупка гвоздей",
+      "type": "material",
+      "count": "100000.00000000",
+      "price": "12.00"
+    }
+  },
+  {
+    "model": "construction_est.expenditure",
+    "pk": 16,
+    "fields": {
+      "section": 17,
+      "name": "Рабочие",
+      "type": "work",
+      "count": "50.00000000",
+      "price": "2500.00"
+    }
+  },
+  {
+    "model": "construction_est.expenditure",
+    "pk": 17,
+    "fields": {
+      "section": 19,
+      "name": "p100",
+      "type": "material",
+      "count": "50.00000000",
+      "price": "1150.00"
+    }
+  },
+  {
+    "model": "construction_est.expenditure",
+    "pk": 18,
+    "fields": {
+      "section": 19,
+      "name": "бригадир",
+      "type": "work",
+      "count": "1.00000000",
+      "price": "1200.00"
+    }
+  },
+  {
+    "model": "construction_est.expenditure",
+    "pk": 19,
+    "fields": {
+      "section": 19,
+      "name": "Подсобники",
+      "type": "work",
+      "count": "5.00000000",
+      "price": "700.00"
+    }
+  },
+  {
+    "model": "construction_est.expenditure",
+    "pk": 20,
+    "fields": {
+      "section": 19,
+      "name": "Трактор",
+      "type": "work",
+      "count": "2.00000000",
+      "price": "250.00"
+    }
+  },
+  {
+    "model": "construction_est.expenditure",
+    "pk": 21,
+    "fields": {
+      "section": 20,
+      "name": "Стоимость щебня",
+      "type": "material",
+      "count": "50.00000000",
+      "price": "1050.00"
+    }
+  },
+  {
+    "model": "construction_est.expenditure",
+    "pk": 22,
+    "fields": {
+      "section": 21,
+      "name": "Закупка",
+      "type": "material",
+      "count": "2020.00000000",
+      "price": "113.00"
+    }
+  },
+  {
+    "model": "construction_est.expenditure",
+    "pk": 23,
+    "fields": {
+      "section": 22,
+      "name": "Закупка",
+      "type": "material",
+      "count": "1510.00000000",
+      "price": "15013.00"
+    }
+  },
+  {
+    "model": "construction_est.expenditure",
+    "pk": 24,
+    "fields": {
+      "section": 25,
+      "name": "Закупка плитки",
+      "type": "material",
+      "count": "363.00000000",
+      "price": "450.00"
+    }
+  },
+  {
+    "model": "construction_est.expenditure",
+    "pk": 25,
+    "fields": {
+      "section": 25,
+      "name": "Работа - Бригадир",
+      "type": "work",
+      "count": "1.00000000",
+      "price": "850.00"
+    }
+  },
+  {
+    "model": "construction_est.expenditure",
+    "pk": 26,
+    "fields": {
+      "section": 25,
+      "name": "Работа - Плиточники",
+      "type": "work",
+      "count": "14.00000000",
+      "price": "800.00"
+    }
+  },
+  {
+    "model": "construction_est.expenditure",
+    "pk": 27,
+    "fields": {
+      "section": 23,
+      "name": "Закупка материала",
+      "type": "material",
+      "count": "1100.00000000",
+      "price": "1550.00"
+    }
+  },
+  {
+    "model": "construction_est.expenditure",
+    "pk": 28,
+    "fields": {
+      "section": 24,
+      "name": "Закупка материала",
+      "type": "material",
+      "count": "1513.00000000",
+      "price": "5048.00"
+    }
+  },
+  {
+    "model": "construction_est.expenditure",
+    "pk": 29,
+    "fields": {
+      "section": 23,
+      "name": "Каменщики",
+      "type": "work",
+      "count": "20.00000000",
+      "price": "1540.00"
+    }
+  },
+  {
+    "model": "construction_est.expenditure",
+    "pk": 30,
+    "fields": {
+      "section": 27,
+      "name": "Закупка леса",
+      "type": "material",
+      "count": "5154.00000000",
+      "price": "1200.00"
+    }
+  },
+  {
+    "model": "construction_est.expenditure",
+    "pk": 31,
+    "fields": {
+      "section": 28,
+      "name": "Закупка гвоздей",
+      "type": "material",
+      "count": "154000.00000000",
+      "price": "16.00"
+    }
+  },
+  {
+    "model": "construction_est.expenditure",
+    "pk": 32,
+    "fields": {
+      "section": 27,
+      "name": "Рабочие",
+      "type": "work",
+      "count": "12.00000000",
+      "price": "200.00"
+    }
+  },
+  {
+    "model": "construction_obj.building",
+    "pk": 1,
+    "fields": {
+      "name": "Многоквартирный дом"
+    }
+  },
+  {
+    "model": "construction_obj.building",
+    "pk": 2,
+    "fields": {
+      "name": "Торговый центр"
+    }
+  },
+  {
+    "model": "construction_obj.building",
+    "pk": 3,
+    "fields": {
+      "name": "Коттеджный посёлок"
+    }
+  },
+  {
+    "model": "construction_obj.building",
+    "pk": 4,
+    "fields": {
+      "name": "Коттедж"
+    }
+  },
+  {
+    "model": "construction_obj.building",
+    "pk": 5,
+    "fields": {
+      "name": "Частный дом"
+    }
+  },
+  {
+    "model": "construction_obj.building",
+    "pk": 6,
+    "fields": {
+      "name": "Магазин"
+    }
+  },
+  {
+    "model": "construction_obj.building",
+    "pk": 7,
+    "fields": {
+      "name": "Автовокзал"
+    }
+  },
+  {
+    "model": "construction_obj.building",
+    "pk": 8,
+    "fields": {
+      "name": "ЖД вокзал"
+    }
+  },
+  {
+    "model": "construction_obj.building",
+    "pk": 9,
+    "fields": {
+      "name": "Автомобильная парковка"
+    }
+  },
+  {
+    "model": "construction_obj.building",
+    "pk": 10,
+    "fields": {
+      "name": "Парк развлечений"
+    }
+  }
+]

@@ -15,4 +15,4 @@ class ExpenditureAdmin(admin.ModelAdmin):
     """
     Регистрация модели стоимости секций сметы в админ-панели.
     """
-    pass
+    list_display = 'section', 'name', 'type', 'count', 'price',

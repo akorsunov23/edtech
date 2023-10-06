@@ -48,9 +48,13 @@ class Section(models.Model):
 
     def __str__(self):
         if self.parent:
-            return "{parent} - {name}".format(parent=self.parent, name=self.name)
+            return "{parent} - {name}".format(
+                parent=self.parent,
+                name=self.name
+            )
         return "{name}: {object_name}".format(
-            name=self.name, object_name=self.building.name
+            name=self.name,
+            object_name=self.building.name
         )
 
 
@@ -77,7 +81,9 @@ class Expenditure(models.Model):
     type = models.CharField(
         verbose_name="тип расценки", choices=Types.choices, max_length=8
     )
-    count = models.DecimalField(verbose_name="кол-во", max_digits=20, decimal_places=8)
+    count = models.DecimalField(
+        verbose_name="кол-во", max_digits=20, decimal_places=8
+    )
     price = models.DecimalField(
         verbose_name="цена за единицу", max_digits=20, decimal_places=2
     )
